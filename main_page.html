@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Main_page </title>
+
+<meta name="viewport" context="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="main_code.js"></script>
+<link rel="stylesheet" href="style.css"> 
+</head>
+
+<body style="background-color: orange;">
+    <h4 id="player1_name_label"></h4> <span id="player1_score_label"> </span>
+    <br>
+    <h4 id="player2_name_label"></h4> <span id="player2_score_label"></span>
+
+    <div class="container">
+        <center>
+            <h2 style="color: blue;"> +The Math Quiz Game+ </h2>
+            <h3 id="question_turn"> Question turn: </h3>
+            <h3 id="answer_turn"> Answer turn: </h4>
+             <div id="output" style="width: 60%"> 
+        <center>
+            <h4 id="question"> </h4>
+            <table>
+                <tr>
+                    <td>
+                        Answer:
+                    </td>
+                    <td>
+                        <input type="text" id="answer" class="form-control" style="width: 100%" placeholder="enter answer here">
+                    </td>
+                </tr>
+                <table> 
+                    <tr>
+                        <td>
+                <button id="Check" onclick="check()" class="btn btn-success" style="width: 100%"> CHECK </button></td>
+                    </center>
+                </td>
+                </tr>
+                </table>
+            </table>
+        </center>
+     </div>
+
+        </center>
+        
+     </div>
+     <br>
+     <br>
+     <center> <label> Number 1 </label>
+        <input type="text" id="number1" class="form-control" style="width: 70%" placeholder="Number 1" </center>
+     <br>
+     <br>
+     <center> <label> Number 2 </label>
+       <input type="text" id="number2" class="form-control" style="width: 70%" placeholder="Number 2" </center>
+       <br>
+       <button id="Send" onclick="sned()" class="btn btn-success" style="width: 25%"> SEND </button></td>
+    
+
+
+</body>
+
